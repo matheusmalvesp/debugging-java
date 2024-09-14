@@ -2,9 +2,9 @@ package br.com.dio.debbuging;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Iniciou do programa no método main.");
+        System.out.println("Iniciou o programa no método main.");
         a();
-        System.out.println("Finalizou do programa no método main.");
+        System.out.println("Finalizou o programa no método main.");
     }
 
     static void a() {
@@ -22,7 +22,7 @@ public class Main {
 
     static void c(){
         System.out.println("Entrou no método c.");
-        //Thread.dumpStack();
+        Thread.dumpStack();
         System.out.println("Finalizou o método c.");
     }
 
